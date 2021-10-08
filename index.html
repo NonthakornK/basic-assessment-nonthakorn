@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <!-- Modal -->
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close">&times;</button>
+        <p>Ordered Items</p>
+        <ul id="cartList"></ul>
+    </div>
+  
+  </div>
+  <!-- Nav -->
+  <nav class="rectangle">
+    <ul class="nav">
+        <li><a href="">SampleSite</a></li>
+        <li class="blocker">
+          <button id="cartBtn" class="cart-btn">Cart</button>
+        </li>
+    </ul>
+  </nav>
+  <!-- Carousel -->
+  <div class="carousel-container">
+    <div class="carousel">
+    <button id="carousel-prev" class="carousel-btn">&lt</button>
+    
+    <div class="carousel-slides" style="display: block;"><img id="slide1" src="img/Slide_1.png"></div>
+    
+    <div class="carousel-slides"><img id="slide2" src="img/Slide_2.png"></div>
+
+    <div class="carousel-slides"><img id="slide3" src="img/Slide_3.png"></div>
+    
+    <button id="carousel-next" class="carousel-btn">&gt</button>
+    </div>
+  </div>
+  <!-- Flex -->
+  <div class="flex-container">
+    <div class="card rectangle">
+      <img src="./img/product_placeholder.png">
+      <div class="details">
+        <span>iPhone</span>
+        <div class="blocker">
+          <button class="card-btn">Order</button>
+        </div>
+      </div>
+    </div>
+    <div class="card rectangle">
+      <img src="./img/product_placeholder.png">
+      <div class="details">
+        <span>iPad</span>
+        <div class="blocker">
+          <button class="card-btn">Order</button>
+        </div>
+      </div>
+    </div>
+    <div class="card rectangle">
+      <img src="./img/product_placeholder.png">
+      <div class="details">
+        <span>iPod</span>
+        <div class="blocker">
+          <button class="card-btn">Order</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+    
+</div>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
